@@ -60,3 +60,14 @@ import numpy
 k = numpy.array(map(float,raw_input().split()))
 p = input()
 print numpy.polyval(k,p)
+
+# i runned it but it was running on the python 3 this is the alternate one i have written
+import numpy as np
+t=input()
+splitted_string=t.split()
+splitted_string=list(map(float,splitted_string))
+
+z=int(input())
+t=np.polyval(splitted_string
+             ,z)
+print(int(t))
